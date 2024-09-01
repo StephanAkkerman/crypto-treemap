@@ -83,7 +83,7 @@ def treemap(save_img: bool = False):
     # Save the figure as an image
     # Increase the width and height for better quality
     if save_img:
-        fig.write_image(file="treemap.png", format="png", width=1920, height=1080)
+        fig.write_image(file="img/treemap.png", format="png", width=1920, height=1080)
 
     # Show the treemap
     fig.show()
